@@ -1,26 +1,73 @@
-# Jupyter
+# ============================================
+# PYTHON CACHE
+# ============================================
+
+__pycache__/
+*.pyc
+
+# ============================================
+# JUPYTER
+# ============================================
+
 .ipynb_checkpoints/
+
+# ============================================
+# MODEL FILES
+# ============================================
+
+*.pkl
+*.joblib
+
+# ============================================
+# DATA FILES
+# ============================================
+
+*.csv
+*.tif
+*.tiff
+*.nc
+*.zip
+*.h5
+
+# ============================================
+# LARGE OUTPUTS
+# ============================================
+
+outputs/
+results/
+figures/
+
+# ============================================
+# SYSTEM FILES
+# ============================================
+
+.DS_Store
+Thumbs.db
+
+# ============================================
+# ENVIRONMENT
+# ============================================
+
+venv/
+.env
 
 # Python
 __pycache__/
 *.pyc
 
-# Virtual env
-venv/
-env/
+# Jupyter
+.ipynb_checkpoints/
 
-# Data files
+# Model training logs
+catboost_info/
+*.tfevents
+*.tsv
+
+# Large datasets
 *.csv
-*.tif
-*.nc
-*.h5
+data/output/
+data/final_output/
 
-# Model files
-*.pkl
-*.joblib
-*.pt
-*.pth
-
-# Large outputs
-outputs/
-results/
+# OS files
+.DS_Store
+Thumbs.db
