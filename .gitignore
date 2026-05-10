@@ -1,0 +1,26 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+env/
+
+# Data files
+*.csv
+*.tif
+*.nc
+*.h5
+
+# Model files
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# Large outputs
+outputs/
+results/
